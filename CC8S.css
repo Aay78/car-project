@@ -1,0 +1,90 @@
+body{
+    font-family: 'Racing Sans One', cursive;
+}
+h4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.navbar{
+    text-align:center;
+    display:block;
+    flex-flow:column;
+    background-color: black;
+    width:1370px;
+    height:40px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}
+a#look1{
+    position:absolute;
+    left: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: aqua;
+}
+a#look2{
+    position: absolute;
+    right: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: red;
+}
+a#look3{
+    position: absolute;
+    left: 700px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+p{
+    text-align: center;
+    padding: 15px;
+    margin: 5px;
+    margin-top: 140px;
+    margin-top: 5px;
+}
+img#look1{
+    display: block;
+    margin-top: 100px;
+    margin-left: center;
+    margin-right: auto;
+    width: 99%;
+    margin-top: 50px;
+}
+img#look2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 90px;
+}
+img#look4{
+    display: block;
+    margin-right: 100px;
+    width: 50%;
+    margin-top: 0px;
+    float: right;
+}
+
+hr{
+    width: 50%;
+}
+iframe{
+    margin-left: 400px;
+    margin-right: 400px;
+}
+#cs{
+    background-color: #BAFAFE;
+}
+#reg{
+    background-color: 	#FF4500;
+}

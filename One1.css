@@ -1,0 +1,79 @@
+body{
+    font-family: 'Racing Sans One', cursive;
+}
+h4{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.navbar{
+    text-align:center;
+    display:block;
+    flex-flow:column;
+    background-color: black;
+    width:1370px;
+    height:40px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    top: 0px;
+    left: 50px;
+}
+a#look1{
+    position:absolute;
+    left: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: aqua;
+}
+a#look2{
+    position: absolute;
+    right: 50px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: red;
+}
+a#look3{
+    position: absolute;
+    left: 700px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 25px;
+    color: white;
+}
+img#look1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 99%;
+    margin-top: 50px;
+}
+img#look2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    margin-top: 90px;
+}
+p{
+    text-align: center;
+    padding: 15px;
+    margin: 15px;
+    margin-top: 5px;
+}
+hr{
+    width: 50%;
+}
+iframe#left{
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+}
+iframe#right{
+    margin-left: auto;
+    margin-right: auto;
+}
