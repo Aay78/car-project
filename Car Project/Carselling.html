@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <title>
+            The Koenigsegg
+        </title>
+    </head>
+    <body>
+        <img src="koen.png" id="look2">
+        <h4>The Spirit of Performance</h4>
+        <hr>
+        <div class="navbar">
+            <a id="look1" href="css8.html">CC8S</a>
+            <a id="look2">Regera</a>
+            <a id="look3">One:1</a>
+        </div>
+        <img src="images/koen.jpg" id="look1">
+        <p>The Koenigsegg is a model automotive vehicle made by Christian von Koenigsegg. Christian is the founder and CEO of the Swedish high-performance automobile manufacturer Koenigsegg Automotive AB.
+            The Koenigsegg is a humble beginning story, dedications, and unyielding commitment to perfection. The first-ever Koenigsegg that has been built was in 1994. On August 12, 1994, Christian was 22-years old when he decided to follow his dream and build the world’s greatest super-sports car. Nearly two years later it was finally driven in public for the first time by Rickard Rydell at an event. The designer of the car was Sasha Selipanov, he is a new Head of design. He is a graduate of art Center Colledge of design in Pasadena, California, he started his career at Volkswagen in 2005. Soon he saddles his workshop on the south-east coast town of Olofstrom, to a new workshop in the south-west, in a town called Margretetorp.
+        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qeiKKgsvHyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </body>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
+</html>
