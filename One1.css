@@ -1,8 +1,11 @@
 body{
     font-family: 'Racing Sans One', cursive;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='178' height='178' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23ffb3b3' fill-opacity='0.12' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E");
 }
 h4{
     text-align: center;
+    color: black;
 }
 h2{
     text-align: center;
@@ -12,7 +15,7 @@ h2{
     display:block;
     flex-flow:column;
     background-color: black;
-    width:1370px;
+    width:1200px;
     height:40px;
     padding: 15px;
     margin-left: auto;
@@ -39,7 +42,7 @@ a#look2{
 }
 a#look3{
     position: absolute;
-    left: 700px;
+    left: 600px;
     padding: 10px;
     margin: 10px;
     font-size: 25px;
