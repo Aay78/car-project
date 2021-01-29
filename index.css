@@ -9,8 +9,8 @@ h4{
     display:block;
     flex-flow:column;
     background-color: black;
-    width:1200px;
-    height:50px;
+    width:1370px;
+    height:40px;
     padding: 15px;
     margin-left: auto;
     margin-right: auto;
@@ -21,7 +21,7 @@ a#look1{
     padding: 10px;
     margin: 10px;
     font-size: 25px;
-    color: aqua;
+    color: #6ef5ff;
 }
 a#look2{
     position: absolute;
@@ -33,11 +33,11 @@ a#look2{
 }
 a#look3{
     position: absolute;
-    left: 600px;
+    left: 700px;
     padding: 10px;
     margin: 10px;
     font-size: 25px;
-    color: grey;
+    color: white;
 }
 p{
     text-align: center;
@@ -62,6 +62,6 @@ hr{
     width: 50%;
 }
 iframe{
-    margin-left: 400px;
-    margin-right: 400px;
+    margin-left: 500px;
+    margin-right: 500px;
 }

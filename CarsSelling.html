@@ -3,34 +3,36 @@
     <head>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="index.css">
-        <title>
+        <link rel="stylesheet" href="index.css"><!--To link in with other VS pages that so there is more space without style tag-->
+        <!--The link above is to link eachother with other pages-->
+        <title> 
             The Koenigsegg
-        </title>
+        </title><!--It is use for the name of the webpage-->
+        <link rel="icon" href="images/Koenlogo.png" type="image"> <!--It is use for the logo of the webpage-->
     </head>
     <body>
         <img src="images/Koen.png" id="look2">
         <h4>The Spirit of Performance</h4>
         <hr>
         <div class="navbar">
-            <a href="CC8S" id="look1">CC8S</a>
-            <a href="" id="look2">Regera</a>
-            <a href="One1.html" id="look3">One:1</a>
+            <a href="CC8S.html" id="look1">CC8S</a><!--using an a tag with href linking to other pages in VScode-->
+            <a href="Regera.html" id="look2">Regera</a><!--using an a tag with href linking to other pages in VScode-->
+            <a href="One1.html" id="look3">One:1</a><!--using an a tag with href linking to other pages in VScode-->
         </div>
-        <img src="images/Regera.jpeg" id="look1">
+        <img src="images/Regera.jpeg" id="look1"> <!--Using the img as images with src as source to find images save in files-->
         <p>The Koenigsegg is a model automotive vehicle made by Christian von Koenigsegg. Christian is the founder and CEO of the Swedish high-performance automobile manufacturer Koenigsegg Automotive AB.
             The Koenigsegg is a humble beginning story, dedications, and unyielding commitment to perfection. The first-ever Koenigsegg that has been built was in 1994. On August 12, 1994, Christian was 22-years old when he decided to follow his dream and build the world’s greatest super-sports car. Nearly two years later it was finally driven in public for the first time by Rickard Rydell at an event. The designer of the car was Sasha Selipanov, he is a new Head of design. He is a graduate of art Center Colledge of design in Pasadena, California, he started his career at Volkswagen in 2005. Soon he saddles his workshop on the south-east coast town of Olofstrom, to a new workshop in the south-west, in a town called Margretetorp.
-        </p>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qeiKKgsvHyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </p> 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/qeiKKgsvHyY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  <!--This iframe is been copied down from a link(youtbe)-->
     </body>
     <script>
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
+        if (prevScrollpos > currentScrollPos) { //If the scroller don't move down, the navbar wont move
             document.getElementById("navbar").style.top = "0";
         } else {
-            document.getElementById("navbar").style.top = "-50px";
+            document.getElementById("navbar").style.top = "-75px";//When the scroller move down, the navbar moving by -75 pixels up
         }
         prevScrollpos = currentScrollPos;
         }

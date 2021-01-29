@@ -17,7 +17,7 @@ h2{
     display:block;
     flex-flow:column;
     background-color: black;
-    width:1200px;
+    width:1370px;
     height:40px;
     padding: 15px;
     margin-left: auto;
@@ -32,7 +32,7 @@ a#look1{
     padding: 10px;
     margin: 10px;
     font-size: 25px;
-    color: aqua;
+    color: #6ef5ff;
 }
 a#look2{
     position: absolute;
@@ -44,7 +44,7 @@ a#look2{
 }
 a#look3{
     position: absolute;
-    left: 600px;
+    left: 650px;
     padding: 10px;
     margin: 10px;
     font-size: 25px;
@@ -64,6 +64,12 @@ img#look2{
     width: 25%;
     margin-top: 90px;
 }
+img#look3{
+    display: block;
+    float: left;
+    width: 35%;
+    margin-left: 7px;
+}
 p{
     text-align: center;
     padding: 15px;
@@ -73,7 +79,7 @@ p{
 hr{
     width: 50%;
 }
-iframe#center{
-    margin-left: auto;
-    margin-right: auto;
+iframe{
+    margin-left: 400px;
+    margin-right: 400px;
 }

@@ -4,23 +4,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="One1.css">
+        <link rel="stylesheet" href="One1.css"><!--To link in with other VS pages that so there is more space without style tag-->
         <title>
-            The Koenigsegg
-        </title>
-        <link rel="icon" href="images/Koenlogo.png" type="image">
+            The Koenigsegg One 1
+        </title><!--It is use for the name of the webpage-->
+        <link rel="icon" href="images/Koenlogo.png" type="image"><!--It is use for the logo of the webpage-->
     </head>
     <body>
         <div class="navbar" id="navbar">
-            <a href="CC8S.html" id="look1">CC8S</a>
-            <a href="Regera.html" id="look2">Regera</a>
-            <a href="One1.html" id="look3">One:1</a>
+            <a href="CC8S.html" id="look1">CC8S</a><!--using an a tag with href linking to other pages in VScode-->
+            <a href="Regera.html" id="look2">Regera</a><!--using an a tag with href linking to other pages in VScode-->
+            <a href="One1.html" id="look3">One:1</a><!--using an a tag with href linking to other pages in VScode-->
         </div>
         <img src="images/Koen.png" id="look2">
-        <a href="Carselling.html"><h4>The Spirit of Performance</h4></a>
+        <a href="CarsSelling.html"><h4>The Spirit of Performance</h4></a><!--Using the h4 tag inside an a tag so that the work -->
         <hr>
         <h2>The Koenigsegg One 1</h2>
-        <img src="images/One1.png" id="look1">
+        <img src="images/One1.png" id="look1"><!--Using the img as images with src as source to find images save in files-->
         <p>
             Christian von Koenigsegg oversees the final preparation of the first Koenigsegg One:1 Megacar ahead of The Geneva Motor Show. The One:1 attains a power to weight ratio of 1 horsepower to every 1 kg of curb weight through unprecedented weight saving measures.
             The first to have the One 1 was, Carina Lima, who had the prototype that soon will have all other models have the same.
@@ -36,10 +36,10 @@
         var prevScrollpos = window.pageYOffset;
         window.onscroll = function() {
         var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
+        if (prevScrollpos > currentScrollPos) {//If the scroller don't move down, the navbar wont move
             document.getElementById("navbar").style.top = "0";
         } else {
-            document.getElementById("navbar").style.top = "-75px";
+            document.getElementById("navbar").style.top = "-75px";//When the scroller move down, the navbar moving by -75 pixels up
         }
         prevScrollpos = currentScrollPos;
         }
