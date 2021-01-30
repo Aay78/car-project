@@ -42,15 +42,15 @@ a#look3{
 p{
     text-align: center;
     padding: 15px;
-    margin: 5px;
+    margin: 5px;    
     margin-top: 5px;
+    margin-left: 15rem;
+    margin-right: 15rem;
 }
 img#look1{
     display: block;
-    margin-top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    margin-top: 8rem;
+    width: 99%;
 }
 img#look2{
     display: block;
@@ -62,6 +62,6 @@ hr{
     width: 50%;
 }
 iframe{
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 450px;
+    margin-right: 450px;
 }
